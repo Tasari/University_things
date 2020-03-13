@@ -57,7 +57,7 @@ class Element:
         self.__s = s
         self.__h = h
         self.__data = data
-        if data == None:
+        if self.__data == None:
             self.__data = ''.join([chr(random.randint(33, 125)) for i in range(4096)])
         self.__key = Key() 
         self.keygen()

@@ -1,4 +1,3 @@
-option = 1
 while 1:
     option = input('''
 b - bin
