@@ -1,0 +1,101 @@
+LOCUS       AF319587                 751 bp    DNA     linear   BCT 24-JUL-2016
+DEFINITION  Bacillus thuringiensis serovar berliner strain HER1357 DnaA (dnaA)
+            and DNA polymerase III beta chain (dnaN) genes, partial cds.
+ACCESSION   AF319587
+VERSION     AF319587.1
+KEYWORDS    .
+SOURCE      Bacillus thuringiensis serovar berliner
+  ORGANISM  Bacillus thuringiensis serovar berliner
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus;
+            Bacillus cereus group.
+REFERENCE   1  (bases 1 to 751)
+  AUTHORS   von Stetten,F., Birovljev,A. and Scherer,S.
+  TITLE     Organization of the replication origin of the psychrotolerant
+            Bacillus cereus group member Bacillus weihenstephanensis and the
+            inhibition of cell division at low temperature by insertion of
+            Tn916 in its DNA unwinding region
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 751)
+  AUTHORS   von Stetten,F., Birovljev,A. and Scherer,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-SEP-2000) FML, TU-Munchen, Institut fur
+            Mikrobiologie, Weihenstephaner Berg 3, Freising 85350, Germany
+FEATURES             Location/Qualifiers
+     source          1..751
+                     /organism="Bacillus thuringiensis serovar berliner"
+                     /mol_type="genomic DNA"
+                     /strain="HER1357"
+                     /serovar="berliner"
+                     /isolate="1715WT"
+                     /db_xref="taxon:1434"
+     gene            <1..93
+                     /gene="dnaA"
+     CDS             <1..93
+                     /gene="dnaA"
+                     /note="similar to Bacillus subtilis DnaA and chromosomal
+                     replication initiator protein DnaA"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DnaA"
+                     /protein_id="AAN14439.1"
+                     /translation="VIHAHEKISKLLKTDTQLQKQVEEINGILK"
+     misc_feature    80..89
+                     /gene="dnaA"
+                     /note="AT cluster"
+     protein_bind    136..144
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="dnaA box"
+                     /bound_moiety="DnaA"
+     protein_bind    179..187
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="dnaA box"
+                     /bound_moiety="DnaA"
+     protein_bind    187..195
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="dnaA box"
+                     /bound_moiety="DnaA"
+     misc_feature    201..226
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="predicted region of open complex formation"
+     misc_feature    227..245
+                     /note="AT cluster"
+     gene            258..>751
+                     /gene="dnaN"
+     regulatory      258..263
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="dnaN"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="potential SD sequence"
+     CDS             272..>751
+                     /gene="dnaN"
+                     /note="similar to Bacillus subtilis DnaN and DNA
+                     polymerase III beta chain"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA polymerase III beta chain"
+                     /protein_id="AAN14438.1"
+                     /translation="MRFTIQKDYLVRGVQDVMKAVSSRTTIPILTGIKVVATEEGVTL
+                     TGSDADISIESFIPVEENGKEIVEIAQSGSIVLQAKYFSEIVKKLPKDTVEISVENHF
+                     MTKIKSGKSEFNLNGLDSAEYPLLPQIEEHHVFKIPTDLLKHMIRQTVFAVSTSETRP
+                     "
+ORIGIN      
+        1 gttatccatg cccatgaaaa aatttctaaa ctactaaaaa ccgatacgca attacaaaag
+       61 caagttgaag aaattaatgg tattttaaag tagtagctga atagtgtgaa taacttacct
+      121 tgttttacgc acagtctatc cacatgtaga tagactgttt ttacatcctt caaaggggtt
+      181 atccacatat ccacaagccc tattactatt actactattt tttatcttta ttaattaaat
+      241 aaaatcttat acttaccgga ggtttttctt tatgcgtttt acaatacaaa aagactatct
+      301 tgtaagaggt gtacaagatg taatgaaggc agtttcttct cgtacaacaa tccctatcct
+      361 tacgggaatt aaagttgtag ctactgaaga aggggttaca ttaacaggaa gcgatgctga
+      421 tatttctatt gaatcgttta ttccagtcga agaaaatgga aaagaaatcg tagaaatagc
+      481 tcaatcagga agcattgttt tacaagcaaa atattttagt gagattgtaa aaaaactacc
+      541 taaagatact gtcgaaattt ctgtggaaaa tcattttatg acaaaaataa aatctggaaa
+      601 atcagaattt aacttaaatg gtttagattc tgcagaatat ccgttattac cacagattga
+      661 agaacatcat gtatttaaga taccaacaga tttacttaag catatgatca gacaaactgt
+      721 atttgcagtt tctacttctg aaacaagacc a
+//
+
